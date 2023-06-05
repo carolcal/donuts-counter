@@ -1,0 +1,57 @@
+body {
+    background-image: url("donuts.JPG");
+    background-size: cover;
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#container {
+    background-color: #FBE7C6;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: true;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%; 
+}
+
+#increment-btn {
+    background: #A0E7E5;
+}
+
+#save-btn {
+    background: #FFAEBC;
+}
+
+#save-el {
+    width: 50%;
+    text-align: center;
+}
